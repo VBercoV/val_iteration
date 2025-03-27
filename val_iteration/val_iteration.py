@@ -45,7 +45,7 @@ def val_iteration(states: list, actions: dict, transitions: dict, rewards: dict,
         
         k = k+1
 
-        if delta < theta or k > nr_iter: # Terminate when below uniform upper bound, or iteration number is reached.
+        if delta < theta or k >= nr_iter: # Terminate when below uniform upper bound, or iteration number is reached.
             break
 
     return V, policy
