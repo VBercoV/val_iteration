@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "val_iteration"
+version = "1.0.0"
+maintainers = [
+  { name="Vlad Bercovici", email="v.bercovic@lancaster.ac.uk" },
+]
+authors = [
+  { name="Vlad Bercovici", email="v.bercovic@lancaster.ac.uk"},
+]
+description = "Value iteration algorithm for MDPs with stochastic action effects, fully observable states, and rewards dependent on final state"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+dependencies = []
+
+
+[project.urls]
+homepage = "val_iteration.html"
